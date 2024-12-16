@@ -1,2 +1,0 @@
-# Nonholonomic Bordeaux Template
-
