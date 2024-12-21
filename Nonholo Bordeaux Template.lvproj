@@ -113,11 +113,13 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Versioned Load.vi" Type="VI" URL="../Versioned Load.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
 		<Item Name="Get Data.vi" Type="VI" URL="../Get Data.vi"/>
+		<Item Name="Ft to Encoder Velocity.vi" Type="VI" URL="../Ft to Encoder Velocity.vi"/>
 		<Item Name="Convert Overrides.vi" Type="VI" URL="../Convert Overrides.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -560,7 +562,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Segment Type.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Segment Type.ctl"/>
 			<Item Name="Trajectory Data.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Trajectory Data.ctl"/>
-			<Item Name="Versioned Load.vi" Type="VI" URL="../Versioned Load.vi"/>
 			<Item Name="Overrides.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Overrides.ctl"/>
 			<Item Name="Angluar Limits.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Angluar Limits.ctl"/>
 			<Item Name="Drive Type.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Drive Type.ctl"/>
@@ -571,8 +572,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Single Cmd Info.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Single Cmd Info.ctl"/>
-			<Item Name="Calc Velocity Setpoints2.vi" Type="VI" URL="../Drive/Calc Velocity Setpoints2.vi"/>
-			<Item Name="Ft to Encoder Velocity.vi" Type="VI" URL="../Ft to Encoder Velocity.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
