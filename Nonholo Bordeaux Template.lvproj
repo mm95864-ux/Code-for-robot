@@ -560,18 +560,18 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Segment Type.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Segment Type.ctl"/>
-			<Item Name="Trajectory Data.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Trajectory Data.ctl"/>
-			<Item Name="Overrides.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Overrides.ctl"/>
-			<Item Name="Angluar Limits.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Angluar Limits.ctl"/>
-			<Item Name="Drive Type.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Drive Type.ctl"/>
-			<Item Name="Path Type.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Path Type.ctl"/>
-			<Item Name="Availible Command systems for auto.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Availible Command systems for auto.ctl"/>
-			<Item Name="Limits.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Limits.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Single Cmd Info.ctl" Type="VI" URL="../../bordeaux-pathinator-master/Bordeaux/Types/Single Cmd Info.ctl"/>
+			<Item Name="Trajectory Data.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Trajectory Data.ctl"/>
+			<Item Name="Segment Type.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Segment Type.ctl"/>
+			<Item Name="Overrides.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Overrides.ctl"/>
+			<Item Name="Angluar Limits.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Angluar Limits.ctl"/>
+			<Item Name="Drive Type.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Drive Type.ctl"/>
+			<Item Name="Path Type.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Path Type.ctl"/>
+			<Item Name="Availible Command systems for auto.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Availible Command systems for auto.ctl"/>
+			<Item Name="Limits.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Limits.ctl"/>
+			<Item Name="Single Cmd Info.ctl" Type="VI" URL="../../bordeaux-nonholonomic-main/Bordeaux/Types/Single Cmd Info.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
