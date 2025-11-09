@@ -1,0 +1,3 @@
+[submodule "bordeaux-main"]
+	path = bordeaux-main
+	url = https://eisd-robotics.eanesisd.net/2689/bordeaux-nonholonomic.git
