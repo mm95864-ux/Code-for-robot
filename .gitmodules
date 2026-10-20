@@ -1,3 +1,4 @@
 [submodule "bordeaux-main"]
 	path = bordeaux-main
-	url = https://eisd-robotics.eanesisd.net/2689/bordeaux-nonholonomic.git
+	url = https://github.com/frc2468/bordeaux.git
+	branch = nonholo-template
